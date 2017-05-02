@@ -1,0 +1,5 @@
+SELECT ?Patient
+WHERE { ?Patient <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/RadiologyPatient> } 
+
+select ?treatment
+where { ?treatment  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://edu.stevens.cs548/clinic#/Radiology> }
